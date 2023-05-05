@@ -1,0 +1,209 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+.PrincipalPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerPP {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo {
+    position: absolute;
+    left: 5px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0B4F6C;
+    cursor: pointer;
+}
+.account {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #0B4F6C;
+}
+.notification{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    right: 45px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    right: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar {
+    width: 100%;max-width: 400px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #465362;
+    cursor: pointer;
+}
+#a{
+    background-color: #011936;
+    color: white;
+}
+.videoZ {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.v-1 {
+    width: 90%;
+    max-width: 400px;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    right:5px;
+    position:absolute;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#ffffff;
+    border-radius:10px;
+  }
+  .img-video-1 {
+    width: 100%;
+    height: 150px;
+    background:url("narto\ img\ 2.jpg") black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .navbar-video-1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    background:url("img\ 6.webp") black;
+    background-repeat: no-repeat;
+    background-size: 100% 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .elemnet-video {
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .descriere {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+  }
+  .name-data {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    color: #2F4550;
+  }
+  .space {
+    width: 90%;
+    max-width: 400px;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
