@@ -302,6 +302,18 @@ body {
     flex-wrap: wrap;
     gap: 20px;
   }
+.to-day2 {
+    position:relative;
+    width: 95%;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
   .msg-box {
     width: 100%;
     max-width: 400px;
